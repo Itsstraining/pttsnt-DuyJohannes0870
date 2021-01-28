@@ -40,8 +40,6 @@ function ketqua(n) {
 
 function main(input) {
   let res = input.split(" ");
-  // let n = parseInt(res[0]);
-  // let kq = ketqua(n);
   let n = parseInt(res)
   if (n < 2) {
     console.log(n);
