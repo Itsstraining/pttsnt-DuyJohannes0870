@@ -26,6 +26,7 @@ function ketqua(n) {
       }
     }
   }
+
   danhsachketqua.push(sohientai);
   let print = "";
   for (let i = 0; i < danhsachketqua.length; i++) {
