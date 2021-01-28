@@ -14,7 +14,6 @@ function Ktsnt(n) {
   return flag;
 }
 
-
 function ketqua(n) {
   let danhsachketqua = [];
   let sohientai = n;
@@ -27,8 +26,6 @@ function ketqua(n) {
       }
     }
   }
-
-
   danhsachketqua.push(sohientai);
   let print = "";
   for (let i = 0; i < danhsachketqua.length; i++) {
@@ -41,7 +38,6 @@ function ketqua(n) {
   return print;
 }
 
-
 function main(input) {
   let res = input.split(" ");
   let n = parseInt(res)
@@ -51,6 +47,5 @@ function main(input) {
     console.log(ketqua(n));
   }
 }
-
 module.exports = main;
 
